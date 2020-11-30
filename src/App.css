@@ -1,38 +1,40 @@
-.App {
+
+
+
+
+
+.decription {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  border: none;
+  font: normal 24px/12px "Comic Sans MS", cursive, sans-serif;
+  color: black;
   text-align: center;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  background: #003399;
+}
+.GpaType {
+ 
+  
+  font: normal 24px/12px "Comic Sans MS", cursive, sans-serif;
+  color: black;
+  text-align: center;
+  
+ 
+}
+.RadioButtona{
+  height: 200px;
+  position: relative;
+  border: 3px solid green;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+#labelID{
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  display: block;
+    text-align: center;
+    line-height: 150%;
+    font-size: .85em;
 }
